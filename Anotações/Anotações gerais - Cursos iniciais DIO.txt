@@ -1,0 +1,34 @@
+Expressões literais = utilizar na atribuição de valor para uma variavel ou constante
+Concatenação = unir o conteúdo de duas strings
+linguagem de programação = escrita formal que especifica um conjunto de instruções e regras usadas para gerar um software
+	Função = Servir como um meio de comunicação entre computadores e humanos
+
+compiladas = executada diretamente pelo SO ou pelo processador
+interpretadas = executado por um programa de computador interpretador
+
+-------------------------------------------------------------------------------
+Estrutura de dados = é uma estrutura organizada de dados na memória de um computador...
+vetores e matrizes (arrays) = muitas variaveis do MESMO tipo.
+registro = armazena dados de tipos diferentes
+lista = tamanho ajustavel / certa ordem / 1 tipo de dado
+	2 tipos --> ligadas e duplamente ligadas (encadeada) --> lembrar das variaveis de auxilio inicio e fim da lista
+		ligada = nó sabe o seu indice e sabe o indice do que está ligado a ele
+		duplamente = o "link" entre nodos é bidirecional
+Fila = FIFO --> insere na direita e remove na esquerda
+
+Tabela Hash --> Hashing = espalha os elementos, fazendo com que os mesmos fiquem de forma não ordenada dentro do Array que define a tabela
+	Permite a associação de valores a chaves
+		valores =  indice ode o elemento ta
+		chave = parte da informação que compõe o elemento a ser manipulado
+
+Grafos = Estruturas que permitem programar a relação entre objetos
+	Objetos = vertices ou nós do grafo (relacionamentos são arestas)
+	Permite qualquer tipo de busca
+
+-------------------------------------------------------------------------------
+3 tipos basicos de obejtos internos do git:
+BLOBS --> CONTEM O TIPO DO OBJETO, O TAMANHO DO ARQUIVO, UM \0 E O CONTEUDO DO ARQUIVO
+TREES --> ARMAZENA OS BLOBS E APONTA PARA TIPOS DE BLOBS DIFERENTES (TAMBÉM GUARDA O NOME DO ARQUIVO)
+COMMITS --> APOTA PARA UMA ARVORE, UM PARENTE (COMMIT QUE VEIO ANTES DELE), UM AUTOR, UMA MENSAGEM E UM TIMESTAMP
+
+tracked --> staged = onde ficam os arquivos que estão se preparando pra fazer parte do commit e o commit retorna os arquivos pra unmodified
