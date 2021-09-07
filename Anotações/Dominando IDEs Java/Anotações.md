@@ -8,7 +8,7 @@
 
 - Java é uma linguagem que é compilada para um bytecode que é interpretado pela JVM.
 
-  ​	![Ciclo de vida Java - Carolina Cavalcante DIO] (/imagens/Ciclo de vida Java e C++.png)
+  ​	<img src="/imagens/ciclo_vida.png" alt="Ciclo de vida Java - Camila Cavalcante DIO" style="zoom:70%;" />
 
   
 
